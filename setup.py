@@ -15,9 +15,9 @@ setup(name='cs.p5migrator',
         "Programming Language :: Python",
         ],
       keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      author='Mikel Larreategi',
+      author_email='mlarreategi@codesyntax.com',
+      url='https://github.com/codesyntax',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['cs'],
@@ -25,7 +25,7 @@ setup(name='cs.p5migrator',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'ftw.blueprints'
       ],
       entry_points="""
       # -*- Entry points: -*-
@@ -33,6 +33,4 @@ setup(name='cs.p5migrator',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )
