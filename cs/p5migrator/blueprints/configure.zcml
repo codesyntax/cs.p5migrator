@@ -1,0 +1,11 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:transmogrifier="http://namespaces.plone.org/transmogrifier">
+
+
+    <utility
+        component=".discussion.DiscussionImporter"
+        name="cs.p5migrator.discussion"
+        />
+
+</configure>
