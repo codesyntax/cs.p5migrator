@@ -1,0 +1,20 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:transmogrifier="http://namespaces.plone.org/transmogrifier">
+
+    <transmogrifier:registerConfig
+        name="importp4content"
+        title="Import generic Plone 4 content"
+        description="Import Plone 4 content site"
+        configuration="import.cfg"
+        />
+
+
+    <browser:page
+        name="import_plone4_content"
+        class=".import_pipeline.ImportPipeline"
+        permission="cmf.ManagePortal"
+        for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+        />
+
+</configure>
