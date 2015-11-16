@@ -25,7 +25,8 @@ setup(name='cs.p5migrator',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'ftw.blueprints'
+          'ftw.blueprints',
+          'cs.folderishpage',
       ],
       entry_points="""
       # -*- Entry points: -*-
