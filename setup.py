@@ -25,8 +25,11 @@ setup(name='cs.p5migrator',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'collective.transmogrifier',
+          'quintagroup.transmogrifier',
           'ftw.blueprints',
           'cs.folderishpage',
+          'mr.migrator',
       ],
       entry_points="""
       # -*- Entry points: -*-
