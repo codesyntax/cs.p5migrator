@@ -37,7 +37,7 @@ as follows::
     ...
     ftw.blueprints = git git@github.com:erral/ftw.blueprints
     ftw.inflator = git git@github.com:erral/ftw.inflator
-    collective.jsonmigrator = git git@github.com:erral/collective.jsonmigrator
+    collective.jsonmigrator = git git@github.com:erral/collective.jsonmigrator branch=unified
     quintagroup.transmogrifier = git git@github.com:collective/quintagroup.transmogrifier branch=plone5
 
 Then run your buildout.
