@@ -1,3 +1,9 @@
+UNMAINTAINED
+============
+
+We are not mantaining this product anymore. You can check the pipelina and blueprints for reference, but we do not use a generic approach to migrate old Plone sites, but study its situation case-by-base.
+
+
 Introduction
 ============
 
